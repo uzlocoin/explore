@@ -28,9 +28,9 @@
     // port: The port # that the wallet is configured to listen for RPC requests on (default: 51573 for Uzlo wallet)
     "port": 6334,
     // username: The wallet RPC username
-    "username": "coinuser",
+    "username": "user",
     // password: The wallet RPC password
-    "password": "coinpassword"
+    "password": "passwoed"
   },
 
   // webserver: a collection of settings that pertain to the node.js express web framework (read more: https://www.npmjs.com/package/express)

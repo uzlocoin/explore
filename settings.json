@@ -26,7 +26,7 @@
     // host: The hostname or ip address of the wallet to connect to (default: localhost)
     "host": "localhost",
     // port: The port # that the wallet is configured to listen for RPC requests on (default: 51573 for Uzlo wallet)
-    "port": 11772,
+    "port": 6334,
     // username: The wallet RPC username
     "username": "coinuser",
     // password: The wallet RPC password
@@ -201,7 +201,7 @@
           //                The panel will be disabled with a value of 0
           "display_order": 1
         },
-        // price_panel: a collection of settings that pertain to the price panel which displays the current market price in UZL
+        // price_panel: a collection of settings that pertain to the price panel which displays the current market price in BTC
         "price_panel": {
           // enabled: Enable/disable the price panel (true/true)
           //          If set to true, the price panel will be completely inaccessible
@@ -211,7 +211,7 @@
           //                The panel will be disabled with a value of 0
           "display_order": 4
         },
-        // market_cap_panel: a collection of settings that pertain to the market cap panel which displays the current market cap value in UZL
+        // market_cap_panel: a collection of settings that pertain to the market cap panel which displays the current market cap value in BTC
         "market_cap_panel": {
           // enabled: Enable/disable the market cap panel (true/true)
           //          If set to true, the market cap panel will be completely inaccessible
@@ -294,7 +294,7 @@
           // tooltip_text: Social link tooltips are always prefixed by the "coin.name" setting followed by the text from this tooltip_text setting. Ex: Uzlo Twitter
           "tooltip_text": "Twitter",
           // url: The exact url that the social link should navigate to
-          "url": "https://twitter.com/UzloOfficial",
+          "url": "https://twitter.com/BTCoOfficial",
           // fontawesome_class: A string of css classes, separated by spaces that can be used to display a fontawesome icon for this social link. See https://fontawesome.com/ for more info
           "fontawesome_class": "fab fa-twitter",
           // image_path: The path to an image file that will be displayed for this social link
@@ -322,7 +322,7 @@
           // tooltip_text: Social link tooltips are always prefixed by the "coin.name" setting followed by the text from this tooltip_text setting. Ex: Uzlo Telegram
           "tooltip_text": "Telegram",
           // url: The exact url that the social link should navigate to
-          "url": "https://t.me/Uzloofficial",
+          "url": "https://t.me/BTCoofficial",
           // fontawesome_class: A string of css classes, separated by spaces that can be used to display a fontawesome icon for this social link. See https://fontawesome.com/ for more info
           "fontawesome_class": "fab fa-telegram",
           // image_path: The path to an image file that will be displayed for this social link
@@ -336,7 +336,7 @@
           // tooltip_text: Social link tooltips are always prefixed by the "coin.name" setting followed by the text from this tooltip_text setting. Ex: Uzlo Website
           "tooltip_text": "Website",
           // url: The exact url that the social link should navigate to
-          "url": "https://uzlocoin.io",
+          "url": "https://BTCocoin.io",
           // fontawesome_class: A string of css classes, separated by spaces that can be used to display a fontawesome icon for this social link. See https://fontawesome.com/ for more info
           "fontawesome_class": "",
           // image_path: The path to an image file that will be displayed for this social link
@@ -350,7 +350,7 @@
           // tooltip_text: Social link tooltips are always prefixed by the "coin.name" setting followed by the text from this tooltip_text setting. Ex: Uzlo Coingecko
           "tooltip_text": "Coingecko",
           // url: The exact url that the social link should navigate to
-          "url": "https://www.coingecko.com/en/coins/uzlocoin",
+          "url": "https://www.coingecko.com/en/coins/BTCocoin",
           // fontawesome_class: A string of css classes, separated by spaces that can be used to display a fontawesome icon for this social link. See https://fontawesome.com/ for more info
           "fontawesome_class": "",
           // image_path: The path to an image file that will be displayed for this social link
@@ -693,8 +693,8 @@
         // trading_pairs: An array of market trading pair symbols
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
-        //                Ex: "LTC/UZL", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/UZL", "LTC/ETH" ]
+        //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
+        "trading_pairs": [ "LTC/BTC", "LTC/ETH" ]
       },
       // bittrex: a collection of settings that pertain to the bittrex exchange
       "bittrex": {
@@ -704,8 +704,8 @@
         // trading_pairs: An array of market trading pair symbols
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
-        //                Ex: "LTC/UZL", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/UZL" ]
+        //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
+        "trading_pairs": [ "LTC/BTC" ]
       },
       // bleutrade: a collection of settings that pertain to the bleutrade exchange
       "bleutrade": {
@@ -715,8 +715,8 @@
         // trading_pairs: An array of market trading pair symbols
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
-        //                Ex: "LTC/UZL", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/UZL" ]
+        //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
+        "trading_pairs": [ "LTC/BTC" ]
       },
       // crex: a collection of settings that pertain to the crex exchange
       "crex": {
@@ -726,8 +726,8 @@
         // trading_pairs: An array of market trading pair symbols
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
-        //                Ex: "LTC/UZL", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/UZL" ]
+        //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
+        "trading_pairs": [ "LTC/BTC" ]
       },
       // poloniex: a collection of settings that pertain to the poloniex exchange
       "poloniex": {
@@ -737,8 +737,8 @@
         // trading_pairs: An array of market trading pair symbols
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
-        //                Ex: "LTC/UZL", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/UZL" ]
+        //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
+        "trading_pairs": [ "LTC/BTC" ]
       },
       // stex: a collection of settings that pertain to the stex exchange
       "stex": {
@@ -748,8 +748,8 @@
         // trading_pairs: An array of market trading pair symbols
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
-        //                Ex: "LTC/UZL", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/UZL", "LTC/USDT" ]
+        //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
+        "trading_pairs": [ "LTC/BTC", "LTC/USDT" ]
       },
       // yobit: a collection of settings that pertain to the yobit exchange
       //        NOTE: yobit does not display a 24-hour chart due to yobit's lack of OHLCV api data
@@ -760,8 +760,8 @@
         // trading_pairs: An array of market trading pair symbols
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
-        //                Ex: "LTC/UZL", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/UZL" ]
+        //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
+        "trading_pairs": [ "LTC/BTC" ]
       }
     },
     // default_exchange: a collection of settings that pertain to the default exchange
@@ -773,7 +773,7 @@
       //                See the list of supported exchanges above for the list of supported exchange names
       "exchange_name": "stex",
       // trading_pair: The name of the trading pair for the default exchange must exactly match the name of a trading pair from the "exchanges" setting above
-      "trading_pair": "LTC/UZL"
+      "trading_pair": "LTC/BTC"
     }
   },
 
